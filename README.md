@@ -12,17 +12,10 @@ Repository name: `SecureStore`
 
 ## Product Preview
 
-### Lock Screen
-
-![SecureStore Lock Screen](docs/previews/lock-screen-preview.svg)
-
 ### Vault Dashboard
 
 ![SecureStore Dashboard](docs/previews/dashboard-preview.svg)
 
-### Onboarding Flow
-
-![SecureStore Onboarding](docs/previews/onboarding-preview.svg)
 
 ## Overview
 
