@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f1c"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="rgba(12,20,38,0.92)"/>
+      <stop offset="100%" stop-color="rgba(5,8,16,0.98)"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00eaff"/>
+      <stop offset="60%" stop-color="#00ffc8"/>
+      <stop offset="100%" stop-color="#7a00ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="900" fill="url(#bg)"/>
+  <g opacity="0.24">
+    <path d="M0 120H1440M0 240H1440M0 360H1440M0 480H1440M0 600H1440M0 720H1440M0 840H1440" stroke="#00eaff" stroke-opacity=".18"/>
+    <path d="M120 0V900M240 0V900M360 0V900M480 0V900M600 0V900M720 0V900M840 0V900M960 0V900M1080 0V900M1200 0V900M1320 0V900" stroke="#00eaff" stroke-opacity=".12"/>
+  </g>
+  <rect x="170" y="140" width="1100" height="620" rx="36" fill="url(#panel)" stroke="#1ee9ff" stroke-opacity=".18"/>
+  <rect x="170" y="140" width="660" height="620" rx="36" fill="rgba(255,255,255,0.01)"/>
+  <path d="M830 140V760" stroke="#1ee9ff" stroke-opacity=".15"/>
+  <g transform="translate(404 220)">
+    <path d="M32 5 12 12v17c0 16 10 24 20 30 10-6 20-14 20-30V12L32 5Z" fill="#08101c" stroke="url(#accent)" stroke-width="2.8"/>
+    <rect x="22" y="28" width="20" height="16" rx="4" fill="#071019" stroke="#00eaff" stroke-width="2"/>
+    <path d="M26 28v-5a6 6 0 1 1 12 0v5" fill="none" stroke="#00ffc8" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="32" cy="36" r="2.2" fill="#00eaff"/>
+    <path d="M32 38.2v3.8" stroke="#00eaff" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text x="500" y="250" fill="#b7dfff" font-family="Segoe UI, sans-serif" font-size="12" letter-spacing="6">SECURE FUTURE</text>
+  <text x="405" y="330" fill="#fff" font-family="Segoe UI, sans-serif" font-size="42" font-weight="700">Unlock your encrypted workspace</text>
+  <text x="320" y="380" fill="#93a4c8" font-family="Segoe UI, sans-serif" font-size="18">Local-first vault access with AES-256-GCM encrypted data and Rust-backed secret handling.</text>
+  <rect x="270" y="460" width="140" height="96" rx="24" fill="#0d1526" stroke="#1ee9ff" stroke-opacity=".15"/>
+  <rect x="430" y="460" width="140" height="96" rx="24" fill="#0d1526" stroke="#1ee9ff" stroke-opacity=".15"/>
+  <rect x="590" y="460" width="140" height="96" rx="24" fill="#0d1526" stroke="#1ee9ff" stroke-opacity=".15"/>
+  <text x="300" y="505" fill="#fff" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700">AES-256-GCM</text>
+  <text x="460" y="505" fill="#fff" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700">Offline First</text>
+  <text x="625" y="505" fill="#fff" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700">Session Lock</text>
+  <rect x="905" y="250" width="260" height="52" rx="18" fill="#09111f" stroke="#1ee9ff" stroke-opacity=".2"/>
+  <rect x="905" y="332" width="260" height="52" rx="18" fill="#09111f" stroke="#1ee9ff" stroke-opacity=".2"/>
+  <rect x="905" y="430" width="260" height="56" rx="20" fill="url(#accent)"/>
+  <text x="935" y="282" fill="#9fb1cf" font-family="Segoe UI, sans-serif" font-size="15">Master password</text>
+  <text x="935" y="364" fill="#9fb1cf" font-family="Segoe UI, sans-serif" font-size="15">Confirm password</text>
+  <text x="980" y="465" fill="#071019" font-family="Segoe UI, sans-serif" font-size="17" font-weight="700">Create Vault</text>
+</svg>

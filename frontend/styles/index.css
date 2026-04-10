@@ -1,0 +1,196 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #f8fbff;
+  background:
+    radial-gradient(circle at top, rgba(0, 234, 255, 0.12), transparent 28%),
+    radial-gradient(circle at 82% 18%, rgba(122, 0, 255, 0.14), transparent 22%),
+    linear-gradient(180deg, #0a0f1c 0%, #05070d 100%);
+  font-family: "Bahnschrift", "Segoe UI Variable", "Segoe UI", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  color: #d8e5ff;
+  background-color: #05070d;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: "Bahnschrift", "Segoe UI Variable", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(0, 234, 255, 0.25);
+}
+
+.secure-grid {
+  position: relative;
+  background:
+    radial-gradient(circle at top, rgba(0, 234, 255, 0.12), transparent 30%),
+    radial-gradient(circle at 80% 10%, rgba(122, 0, 255, 0.14), transparent 22%),
+    linear-gradient(180deg, #0a0f1c 0%, #05070d 100%);
+}
+
+.secure-grid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(0, 234, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 234, 255, 0.05) 1px, transparent 1px);
+  background-size: 44px 44px;
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+.glass,
+.neon-panel {
+  background: linear-gradient(180deg, rgba(14, 21, 39, 0.78), rgba(6, 10, 18, 0.86));
+  border: 1px solid rgba(0, 234, 255, 0.14);
+  backdrop-filter: blur(18px);
+  box-shadow:
+    0 0 0 1px rgba(0, 234, 255, 0.06),
+    0 0 18px rgba(0, 234, 255, 0.14),
+    0 24px 90px rgba(2, 8, 24, 0.65);
+}
+
+.neon-input {
+  background: rgba(3, 10, 20, 0.75);
+  border: 1px solid rgba(0, 234, 255, 0.18);
+  outline: none;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.neon-input:focus {
+  border-color: rgba(0, 234, 255, 0.62);
+  box-shadow:
+    0 0 10px rgba(0, 234, 255, 0.4),
+    0 0 20px rgba(0, 234, 255, 0.18);
+  transform: translateY(-1px);
+}
+
+.neon-button {
+  background: linear-gradient(135deg, #00eaff 0%, #00ffc8 68%, #7a00ff 100%);
+  box-shadow:
+    0 0 10px rgba(0, 234, 255, 0.45),
+    0 0 26px rgba(0, 234, 255, 0.22);
+  transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+}
+
+.neon-button:hover {
+  transform: translateY(-1px) scale(1.01);
+  filter: brightness(1.04);
+  box-shadow:
+    0 0 14px rgba(0, 234, 255, 0.5),
+    0 0 34px rgba(0, 234, 255, 0.28);
+}
+
+.securestore-plus-logo {
+  animation: plusGlow 2.8s ease-in-out infinite;
+}
+
+.securestore-plus-panel {
+  border-color: rgba(255, 207, 87, 0.22);
+  box-shadow:
+    0 0 0 1px rgba(255, 207, 87, 0.08),
+    0 0 26px rgba(255, 207, 87, 0.16),
+    0 28px 100px rgba(56, 16, 90, 0.38);
+}
+
+.securestore-plus-button {
+  color: #fff6cc;
+  border: 1px solid rgba(255, 207, 87, 0.32);
+  background:
+    linear-gradient(135deg, rgba(122, 0, 255, 0.22), rgba(255, 207, 87, 0.16)),
+    rgba(255, 255, 255, 0.05);
+  box-shadow:
+    0 0 12px rgba(255, 207, 87, 0.18),
+    0 0 22px rgba(122, 0, 255, 0.14);
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.securestore-plus-button:hover {
+  transform: translateY(-1px);
+  border-color: rgba(255, 220, 120, 0.56);
+  box-shadow:
+    0 0 16px rgba(255, 207, 87, 0.28),
+    0 0 34px rgba(122, 0, 255, 0.22);
+}
+
+@keyframes plusGlow {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 0 rgba(255, 207, 87, 0));
+  }
+  50% {
+    filter: drop-shadow(0 0 12px rgba(255, 207, 87, 0.34));
+  }
+}
+
+.neon-error {
+  border: 1px solid rgba(255, 111, 97, 0.32);
+  background: linear-gradient(180deg, rgba(80, 17, 22, 0.45), rgba(40, 10, 12, 0.35));
+  box-shadow:
+    0 0 12px rgba(255, 111, 97, 0.18),
+    inset 0 0 12px rgba(255, 111, 97, 0.06);
+}
+
+.scanlines {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.02), rgba(255,255,255,0) 3px);
+  background-size: 100% 6px;
+  opacity: 0.08;
+}
+
+.particles {
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(0, 234, 255, 0.25) 0, transparent 2px),
+    radial-gradient(circle at 80% 30%, rgba(0, 255, 200, 0.18) 0, transparent 2px),
+    radial-gradient(circle at 55% 75%, rgba(122, 0, 255, 0.22) 0, transparent 2px);
+  background-size: 220px 220px;
+  opacity: 0.3;
+}
+
+.neon-spinner {
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  border: 3px solid rgba(0, 234, 255, 0.16);
+  border-top-color: #00eaff;
+  box-shadow: 0 0 16px rgba(0, 234, 255, 0.34);
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

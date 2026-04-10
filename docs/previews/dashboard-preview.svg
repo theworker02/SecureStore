@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f1c"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00eaff"/>
+      <stop offset="60%" stop-color="#00ffc8"/>
+      <stop offset="100%" stop-color="#7a00ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="900" fill="url(#bg)"/>
+  <rect x="48" y="42" width="1344" height="82" rx="28" fill="#0b1220" stroke="#1ee9ff" stroke-opacity=".16"/>
+  <text x="140" y="91" fill="#fff" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700">SecureStore</text>
+  <rect x="514" y="62" width="114" height="42" rx="18" fill="#11243a" stroke="#1ee9ff" stroke-opacity=".28"/>
+  <rect x="644" y="62" width="90" height="42" rx="18" fill="#0d1526"/>
+  <rect x="748" y="62" width="98" height="42" rx="18" fill="#0d1526"/>
+  <rect x="862" y="62" width="74" height="42" rx="18" fill="#0d1526"/>
+  <rect x="952" y="62" width="96" height="42" rx="18" fill="#0d1526"/>
+  <rect x="48" y="154" width="846" height="226" rx="30" fill="#0c1424" stroke="#1ee9ff" stroke-opacity=".15"/>
+  <text x="82" y="202" fill="#94a8c8" font-family="Segoe UI, sans-serif" font-size="14" letter-spacing="4">VAULT WORKSPACE</text>
+  <text x="82" y="246" fill="#fff" font-family="Segoe UI, sans-serif" font-size="36" font-weight="700">Direct access to encrypted records</text>
+  <rect x="82" y="296" width="464" height="54" rx="18" fill="#09111f" stroke="#1ee9ff" stroke-opacity=".16"/>
+  <rect x="566" y="296" width="172" height="54" rx="18" fill="url(#accent)"/>
+  <text x="614" y="328" fill="#071019" font-family="Segoe UI, sans-serif" font-size="17" font-weight="700">+ Add Password</text>
+  <rect x="920" y="154" width="472" height="226" rx="30" fill="#0c1424" stroke="#1ee9ff" stroke-opacity=".15"/>
+  <text x="954" y="202" fill="#94a8c8" font-family="Segoe UI, sans-serif" font-size="14" letter-spacing="4">GENERATOR</text>
+  <text x="954" y="244" fill="#fff" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700">Create strong passwords</text>
+  <rect x="954" y="286" width="404" height="16" rx="8" fill="#11243a"/>
+  <rect x="954" y="286" width="282" height="16" rx="8" fill="url(#accent)"/>
+  <rect x="82" y="412" width="408" height="200" rx="28" fill="#0d1526" stroke="#1ee9ff" stroke-opacity=".14"/>
+  <rect x="514" y="412" width="408" height="200" rx="28" fill="#0d1526" stroke="#1ee9ff" stroke-opacity=".14"/>
+  <rect x="946" y="412" width="408" height="200" rx="28" fill="#0d1526" stroke="#1ee9ff" stroke-opacity=".14"/>
+  <text x="112" y="456" fill="#fff" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">Passwords</text>
+  <text x="544" y="456" fill="#fff" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">Secure Notes</text>
+  <text x="976" y="456" fill="#fff" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">File Vault</text>
+  <rect x="112" y="486" width="348" height="94" rx="22" fill="#09111f" stroke="#1ee9ff" stroke-opacity=".12"/>
+  <text x="138" y="520" fill="#fff" font-family="Segoe UI, sans-serif" font-size="20" font-weight="700">GitHub</text>
+  <text x="138" y="552" fill="#95a8c7" font-family="Segoe UI, sans-serif" font-size="16">matth@example.com</text>
+  <text x="138" y="572" fill="#00eaff" font-family="Consolas, monospace" font-size="16">••••••••••••••••</text>
+  <rect x="48" y="646" width="1344" height="208" rx="30" fill="#0c1424" stroke="#1ee9ff" stroke-opacity=".15"/>
+  <text x="82" y="692" fill="#fff" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">Activity Log and Security Insights</text>
+  <rect x="82" y="722" width="612" height="88" rx="20" fill="#09111f"/>
+  <rect x="724" y="722" width="634" height="88" rx="20" fill="#09111f"/>
+</svg>

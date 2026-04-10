@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" fill="none">
+  <defs>
+    <linearGradient id="securestore-wordmark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00eaff"/>
+      <stop offset="60%" stop-color="#00ffc8"/>
+      <stop offset="100%" stop-color="#7a00ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path d="M32 5 12 12v17c0 16 10 24 20 30 10-6 20-14 20-30V12L32 5Z" fill="rgba(8,12,22,0.55)" stroke="url(#securestore-wordmark)" stroke-width="2.8"/>
+    <rect x="22" y="28" width="20" height="16" rx="4" fill="rgba(4,7,13,0.75)" stroke="#00eaff" stroke-width="2"/>
+    <path d="M26 28v-5a6 6 0 1 1 12 0v5" fill="none" stroke="#00ffc8" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="32" cy="36" r="2.2" fill="#00eaff"/>
+    <path d="M32 38.2v3.8" stroke="#00eaff" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text x="68" y="29" fill="#b7dfff" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="12" letter-spacing="4">SECURE FUTURE</text>
+  <text x="68" y="50" fill="white" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="28" font-weight="700" letter-spacing="2">SecureStore</text>
+</svg>

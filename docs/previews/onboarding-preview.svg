@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f1c"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00eaff"/>
+      <stop offset="60%" stop-color="#00ffc8"/>
+      <stop offset="100%" stop-color="#7a00ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="900" fill="url(#bg)"/>
+  <rect x="280" y="120" width="880" height="660" rx="40" fill="#0c1424" stroke="#1ee9ff" stroke-opacity=".16"/>
+  <text x="388" y="198" fill="#fff" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">SecureStore</text>
+  <rect x="388" y="236" width="664" height="8" rx="4" fill="#11243a"/>
+  <rect x="388" y="236" width="440" height="8" rx="4" fill="url(#accent)"/>
+  <text x="388" y="310" fill="#91a7c8" font-family="Segoe UI, sans-serif" font-size="14" letter-spacing="4">WELCOME</text>
+  <text x="388" y="360" fill="#fff" font-family="Segoe UI, sans-serif" font-size="42" font-weight="700">Meet SecureStore</text>
+  <text x="388" y="406" fill="#95a8c7" font-family="Segoe UI, sans-serif" font-size="20">Local account setup, transparent encryption messaging, and a guided path to your master vault.</text>
+  <rect x="388" y="456" width="300" height="140" rx="28" fill="#09111f" stroke="#1ee9ff" stroke-opacity=".15"/>
+  <rect x="720" y="456" width="300" height="140" rx="28" fill="#09111f" stroke="#1ee9ff" stroke-opacity=".15"/>
+  <text x="420" y="520" fill="#fff" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700">Local-first storage</text>
+  <text x="752" y="520" fill="#fff" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700">Guided master key setup</text>
+  <rect x="824" y="670" width="228" height="58" rx="20" fill="url(#accent)"/>
+  <text x="898" y="706" fill="#071019" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700">Continue</text>
+</svg>
